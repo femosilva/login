@@ -1,0 +1,8 @@
+[x] Pegar todos os elementos com js
+[x] Adicionar regex para validacao do email
+[x] Adicionar regex para validacao da password
+[x] Chamar funcao do form onSubmit
+[x] Tratar mensagens de erro
+
+const emailPattern = /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/
+const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/
